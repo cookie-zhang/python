@@ -13,4 +13,16 @@ s5 = s1 - s2 # 差集
 print(s1,s2,s5) # {3,4} {5,6,7} {3,4}
 s6 = s1 ^ s2 # 对称差集
 print(s6) # {3,4,6,7}
-# 字典运算
+s7 = set("hello") # 拆成几何
+print(s7) # {'h', 'e', 'l', 'o'}
+
+# 字典运算 key:value
+dic = {"a":1,"b":2,"c":3}
+print(dic["a"]) # 1
+dic["a"] = 10
+print(dic) # {'a': 10, 'b': 2, 'c': 3}
+print("a" in dic) # true
+print("a" not in dic) # false
+del dic["a"] # 删除键值对 # {'b': 2, 'c': 3}
+dic = {x: x*2 for x in [1,2,3,4,5]}  # 字典推导式 {1:2,2:4,3:6,4:8,5:10}
+print(dic) 
