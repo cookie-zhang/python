@@ -19,6 +19,7 @@ print(s7) # {'h', 'e', 'l', 'o'}
 # 字典运算 key:value
 dic = {"a":1,"b":2,"c":3}
 print(dic["a"]) # 1
+print(dic.get("a")) # 1
 dic["a"] = 10
 print(dic) # {'a': 10, 'b': 2, 'c': 3}
 print("a" in dic) # true
