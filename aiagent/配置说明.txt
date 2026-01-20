@@ -1,0 +1,13 @@
+配置步骤：
+
+1. 创建 .env 文件（在 aiagent 目录下）
+2. 在 .env 文件中添加以下内容：
+   ANTHROPIC_API_KEY=你的_claude_api_密钥
+
+3. 安装依赖：
+   python3.9 -m pip install -r requirements.txt
+
+4. 运行应用：
+   python3.9 app.py
+
+5. 在浏览器中访问：http://localhost:8000
